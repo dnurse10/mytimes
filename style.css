@@ -4,3 +4,14 @@
   font-size: 14px;
   font-weight: bold;
 }
+
+.mytimes {
+  color: MediumAquamarine;
+  display: flex;
+}
+
+.nav {
+  color: black;
+  display: flex;
+
+}

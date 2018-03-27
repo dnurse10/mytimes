@@ -17,9 +17,25 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
 .nav {
-  color: black;
   display: flex;
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
 }

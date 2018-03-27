@@ -12,9 +12,11 @@ header {
 
 }
 
-.mytimes {
+.logo{
   color: MediumAquamarine;
   display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .nav {

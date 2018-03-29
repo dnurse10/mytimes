@@ -46,19 +46,27 @@ div {
 
 .content {
   display: flex;
+  top: 116px;
+  margin: 0 auto 78 auto;
+  position: relative;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .column.large {
-  display: flex;
   width: 630px;
 }
 
 .column.medium {
-  display: flex;
   width: 300px;
 }
 
 .column.small {
-  display: flex;
   width: 240px;
+}
+
+.narrative {
 }

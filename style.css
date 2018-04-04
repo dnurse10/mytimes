@@ -41,10 +41,6 @@ a {
   color: black;
 }
 
-div {
-  border: 1px solid black;
-}
-
 .content {
   display: flex;
   top: 116px;
@@ -108,4 +104,10 @@ div {
 }
 .main-story .narrative {
   font-size: 20px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }

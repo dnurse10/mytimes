@@ -69,6 +69,15 @@ div {
   width: 240px;
 }
 
-.image-content {
+.main-story .image-content {
   background-image: url(./resources/image_main_story.png);
+  display: flex;
+  height: 300px;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }

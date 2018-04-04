@@ -9,6 +9,7 @@ header {
   border-bottom: 1px solid black;
   position: fixed;
   background-color: white;
+  z-index: 1;
 
 }
 
@@ -75,9 +76,36 @@ div {
   height: 300px;
 }
 
+.earth.image-content {
+  background-image: url(./resources/image_fall_season.png);
+  display: flex;
+  height: 300px;
+}
+
+.research.image-content {
+  background-image: url(./resources/image_hipster_camera.png);
+  display: flex;
+  height: 300px;
+}
+
+.cats.image-content {
+  background-image: url(./resources/image_cat_CEO.png);
+  display: flex;
+  height: 300px;
+}
+
 .image-content {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.main-story .narrative {
+  font-size: 20px;
 }

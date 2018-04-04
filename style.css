@@ -69,5 +69,6 @@ div {
   width: 240px;
 }
 
-.narrative {
+.image-content {
+  background-image: url(./resources/image_main_story.png);
 }
